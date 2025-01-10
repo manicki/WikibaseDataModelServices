@@ -19,6 +19,9 @@ use Wikibase\DataModel\Term\TermList;
  */
 class TermListPatcherTest extends TestCase {
 
+	/**
+	 * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
+	 */
 	public static function providePatchTermList() {
 		return [
 			'add a term' => [
